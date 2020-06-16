@@ -32,7 +32,7 @@ public class FileLib
 			Sheet sh=null;
 			Object[][] data = null;
 			try {
-				FileInputStream ip=new FileInputStream("./src\\commonData\\File.xlsx");
+				FileInputStream ip=new FileInputStream("C:\\Users\\User\\git\\oneDayCartAutomation\\OneDay Cart\\src\\commonData\\oneDAY.xlsx");
 				Workbook wb= WorkbookFactory.create(ip);
 				sh=wb.getSheet(sheetname);
 				System.out.println("hre");

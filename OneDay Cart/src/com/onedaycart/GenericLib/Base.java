@@ -14,7 +14,7 @@ import org.testng.annotations.BeforeMethod;
 
 public class Base 
  {
-	WebDriver driver;
+	public WebDriver driver;
 	static WebDriver staticDriver;
 	FileLib fi=new FileLib();
 	@BeforeClass
