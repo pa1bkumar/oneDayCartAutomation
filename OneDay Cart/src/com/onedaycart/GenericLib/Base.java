@@ -53,8 +53,9 @@ public class Base
 		login.login(email, pass);
 	}
 	@AfterMethod
-	public void configAM() {
-		//logout
+	public void configAM() 
+	{
+		System.out.println("hi");
 	}
 	
 	@AfterClass
