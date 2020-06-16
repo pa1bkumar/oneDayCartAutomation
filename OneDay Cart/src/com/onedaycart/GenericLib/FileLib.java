@@ -15,7 +15,7 @@ public class FileLib
 			 Properties prop=null;
 		  
 			try {
-				 FileInputStream ip = new FileInputStream("./src\\commonData\\commonData.properties");
+				 FileInputStream ip = new FileInputStream("C:\\Users\\User\\git\\oneDayCartAutomation\\OneDay Cart\\src\\commonData\\commonData.properties");
 				 prop=new Properties();
 			     prop.load(ip);
 			} 

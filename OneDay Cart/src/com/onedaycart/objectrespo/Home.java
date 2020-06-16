@@ -10,6 +10,82 @@ public class Home
 		private WebElement registerLink;
 		@FindBy(linkText="Log In")
 		private WebElement logInlink;
+		
+		public WebElement getRegisterLink() {
+			return registerLink;
+		}
+		public WebElement getLogInlink() {
+			return logInlink;
+		}
+		public WebElement getCheckoutlink() {
+			return checkoutlink;
+		}
+		public WebElement getMycartLink() {
+			return mycartLink;
+		}
+		public WebElement getMywishlistLink() {
+			return mywishlistLink;
+		}
+		public WebElement getMyAccountLink() {
+			return myAccountLink;
+		}
+		public WebElement getSearchBar() {
+			return searchBar;
+		}
+		public WebElement getGrocerylink() {
+			return grocerylink;
+		}
+		public WebElement getFruitsvegLink() {
+			return fruitsvegLink;
+		}
+		public WebElement getFishmeatLink() {
+			return fishmeatLink;
+		}
+		public WebElement getFoodLink() {
+			return foodLink;
+		}
+		public WebElement getPersonalcareLink() {
+			return personalcareLink;
+		}
+		public WebElement getStationaryLink() {
+			return stationaryLink;
+		}
+		public WebElement getHouseholdLink() {
+			return householdLink;
+		}
+		public WebElement getElectronicsLink() {
+			return electronicsLink;
+		}
+		public WebElement getSportsLink() {
+			return sportsLink;
+		}
+		public WebElement getRiceproductLink() {
+			return riceproductLink;
+		}
+		public WebElement getFloursattaLink() {
+			return floursattaLink;
+		}
+		public WebElement getDalspulsesLink() {
+			return dalspulsesLink;
+		}
+		public WebElement getSpicesmasalaLink() {
+			return spicesmasalaLink;
+		}
+		public WebElement getSaltsugarLink() {
+			return saltsugarLink;
+		}
+		public WebElement getEdibleoilLink() {
+			return edibleoilLink;
+		}
+		public WebElement getVegetableLink() {
+			return vegetableLink;
+		}
+		public WebElement getFruitLink() {
+			return fruitLink;
+		}
+		public WebElement getFrozenmeatLink() {
+			return frozenmeatLink;
+		}
 		@FindBy(linkText="Checkout")
 		private WebElement checkoutlink;
 		@FindBy(xpath="//a[contains(@title,'My Cart')]")
@@ -57,6 +133,7 @@ public class Home
 		@FindBy(linkText="FROZEN MEAT")
 		private WebElement frozenmeatLink;
 		
+	
 		
 		
 }
